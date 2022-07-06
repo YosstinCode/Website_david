@@ -132,14 +132,13 @@ body{
 
 /*main*/
 
-.main{
-    padding: 0 2rem;
+.main--padding{
+    padding: 1rem 2rem;
     background-color: var(--white);
 }
 
 .help__title{
     width: 90%;
-    padding-top: 1rem;
     font-size: 2rem;
     font-weight: bolder;
     color: var(--title);
@@ -194,5 +193,109 @@ body{
 
 .card__item{
     padding: 4px 0;
+    font-size: .8rem;
+}
+/* people comments*/
+
+.main__comments{
+    background-color: var(--background-color);
+}
+
+.comments__title{
+    width: 90%;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: var(--title);
+    text-align: center;
+}
+
+.comments__text{
+    width: 90%;
+    margin: .5rem 0 2rem 0;
+    text-align: justify;
+}
+
+.comments__card{
+    height: 150px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding-bottom: 1rem;
+    background-color: var(--white);
+    border-radius: 1rem;
+}
+
+.comments-card__img-container{
+    position: absolute;
+    top: -2rem;
+    width: 4rem;
+    border: 3px solid var(--white);
+    border-radius: 50%; 
+    overflow: hidden;
+}
+
+.comments-card__img{
+    width: 4rem;
+    vertical-align: bottom;
+    object-fit: cover;
+}
+
+.comments-card__text{
+    width: 80%;
+    padding: 3rem 0 1rem 0;
+    text-align: center;
+    border-bottom: 1px solid var(--border_header);
+}
+
+.comments-card__name{
+    color: var(--title);
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+/*footer*/
+
+.footer{
+    background-color: var(--white);
+    padding: 1rem 2rem;
+}
+
+.footer__callaction{
+    color: var(--title);
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+/* .callaction--size{
+    font-size: 1.5rem;
+} */
+
+.footer__callaction > span{
+    color: #e7912f;
+}
+
+.footer__copy{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+}
+
+.footer__copy > h4{
+    font-family: "Rochester";
+    text-align: center;
+    width: 90%;
+    border-bottom: 1px solid var(--border_header);
+    padding: .5rem;
+    font-size: 1.2rem;
+}
+
+.footer__copy > p{
     font-size: .8rem;
 }

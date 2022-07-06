@@ -51,7 +51,7 @@
       </div>
     </header>
     <main class="main">
-      <section class="main_services">
+      <section class="main__services main--padding">
         <div class="services__help">
           <h3 class="help__title">¿Cómo puedo ayudarte?</h3>
           <p class="help__text">
@@ -97,18 +97,27 @@
           </article>
         </section>
       </section>
-      <section>
-        <div>
-          <h3></h3>
-          <p></p>
+      <section class="main__comments main--padding">
+        <div class="comments__header">
+          <h3 class="comments__title">Opiniones de clientes</h3>
+          <p class="comments__text">Se brinda gran importancia a la calidad del servicio dado nuestro clientes</p>
         </div>
-        <div>
-          <img src="" alt="" />
-          <p></p>
-          <p></p>
+        <div class="comments__card">
+          <div class="comments-card__img-container">
+            <img class="comments-card__img" src="./static/img/client_1.PNG" alt="Cliente" />
+          </div>
+          <p class="comments-card__text">"Una rapida solucion y un servicio impecable"</p>
+          <p class="comments-card__name">Yosstin Castillo</p>
         </div>
       </section>
     </main>
-    <footer></footer>
+    <footer class="footer main--padding">
+      <p class="footer__callaction callaction--size">Habla sobre tu problema de computo</p>
+      <p class="footer__callaction">¡Empieza <span>diciendo hola!</span></p>
+      <div class="footer__copy">
+        <h4>Tecno-Reparaciones</h4>
+        <p>2022 © Todos los derechos reservados</p>
+      </div>
+    </footer>
   </body>
 </html>

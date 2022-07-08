@@ -1,0 +1,42 @@
+.footer {
+    background-color: var(--white);
+    padding: 1rem 2rem;
+  }
+  
+  .footer__callaction {
+    color: var(--title);
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  /* .callaction--size{
+      font-size: 1.5rem;
+  } */
+  
+  .footer__callaction > span {
+    color: #e7912f;
+  }
+  
+  .footer__copy {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .footer__copy > h4 {
+    font-family: "Rochester";
+    text-align: center;
+    width: 90%;
+    border-bottom: 1px solid var(--border_header);
+    padding: 0.5rem;
+    font-size: 1.2rem;
+  }
+  
+  .footer__copy > p {
+    font-size: 0.8rem;
+  }
+  

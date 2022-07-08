@@ -1,0 +1,22 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::after,
+  *::before {
+    box-sizing: inherit;
+  }
+  
+  body {
+    background-color: var(--background-color);
+    font-family: "Montserrat";
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
